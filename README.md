@@ -165,3 +165,5 @@ PeftModelForCausalLM(
 )
 Memory footprint: 2392.2
 ```
+- Test dataset evaluation result
+<img width="997" height="832" alt="image" src="https://github.com/user-attachments/assets/305354b3-f8e7-48ea-80b8-679e79130279" />
