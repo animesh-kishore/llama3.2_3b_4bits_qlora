@@ -1,4 +1,16 @@
 # Base model 4 bit quantized llama3.2 3B with qlora
+- Training dataset prompt below. Model completes it with price in dollars
+```
+What does this cost to the nearest dollar?
+
+Title: Bose QuietComfort 35 I Wireless Noise Cancelling Headphones
+Category: Electronics
+Brand: Bose
+Description: Premium wireless headphones delivering industry‑leading noise cancellation and balanced audio for immersive listening.
+Details: Bluetooth and NFC pairing, dual‑microphone call clarity, up to 20 hours battery life, and a lightweight, comfortable design.
+
+Price is $
+```
 - model checkpoints: https://huggingface.co/animeshkishore/llama3.2_3b_4bits_qlora
 - Training statistics: https://wandb.ai/models-self2694/huggingface/runs/6il7oai6?nw=nwuseranimeshkishore
 - dataset https://huggingface.co/datasets/ed-donner/items_prompts_lite
